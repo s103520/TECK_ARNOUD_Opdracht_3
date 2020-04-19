@@ -1,0 +1,95 @@
+{
+  "gallery": [
+    {
+      "title": "Mona Lisa",
+      "artist": "Leonardo da Vinci",
+      "date": "1503",
+      "period": "Renaissance",
+      "img": "/images/foto1.jpg",
+      "classes": "Renaissance",
+      "alt": "Foto1"
+    },
+    {
+      "title": "Nafea Faa Ipoipo",
+      "artist": "Paul Gauguin",
+      "date": "1892",
+      "period": "Post Impressionism",
+      "img": "/images/foto2.jpg",
+      "classes": "PostImpressionism",
+      "alt": "Foto2"
+    },
+    {
+      "title": "The Card Players",
+      "artist": "Paul Cézanne",
+      "date": "1894",
+      "period": "Post Impressionism",
+      "img": "/images/foto3.jpg",
+      "classes": "PostImpressionism",
+      "alt": "Foto3"
+    },
+    {
+      "title": "Portrait of Marten Soolmans and Portrait of Oopjen Coppit",
+      "artist": "Rembrandt",
+      "date": "1634",
+      "period": "Renaissance",
+      "img": "/images/foto4.jpeg",
+      "classes": "Renaissance",
+      "alt": "Foto4"
+    },
+    {
+      "title": "Nu Couché",
+      "artist": "Amedeo Modigliani",
+      "date": "1917",
+      "period": "Expressionism",
+      "img": "/images/foto5.jpg",
+      "classes": "Expressionism",
+      "alt": "Foto5"
+    },
+    {
+      "title": "Chop Suey",
+      "artist": "Edward Hopper",
+      "date": "1929",
+      "period": "Modernism",
+      "img": "/images/foto11.jpg",
+      "classes": "Modernism",
+      "alt": "Foto6"
+    },
+    {
+      "title": "Portrait of Dr. Gachet",
+      "artist": "Vincent Van Gogh",
+      "date": "1890",
+      "period": "Post Impressionism",
+      "img": "/images/foto12.jpg",
+      "classes": "PostImpressionism",
+      "alt": "Foto7"
+    },
+    {
+      "title": "Triple Elvis",
+      "artist": "Andy Warhol",
+      "date": "1963",
+      "period": "Pop Art",
+      "img": "/images/foto13.jpg",
+      "classes": "PopArt",
+      "alt": "Foto8"
+    },
+    {
+      "title": "Young Girl with a Flower Basket",
+      "artist": "Pablo Picasso",
+      "date": "1905",
+      "period": "Expressionism",
+      "img": "/images/foto9.jpg",
+      "classes": "Expressionism",
+      "alt": "Foto9"
+    },
+    {
+      "title": "Garçon à la pipe",
+      "artist": "Pablo Picasso",
+      "date": "1905",
+      "period": "Expressionism",
+      "img": "/images/foto10.jpg",
+      "classes": "Expressionism",
+      "alt": "Foto10"
+    }
+
+  ]
+}

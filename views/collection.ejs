@@ -1,0 +1,26 @@
+<%- include('header'); %>
+
+<p><input type="text" class="quicksearch" placeholder="Search" /></p>
+
+<div class="button-group filters-button-group">
+  <button class="button is-checked" data-filter="*">show all</button>
+  <button class="button" data-filter=".Renaissance">Renaissance</button>
+  <button class="button" data-filter=".PostImpressionism">Post Impressionism</button>
+  <button class="button" data-filter=".Expressionism">Expressionism</button>
+  <button class="button" data-filter=".Modernism">Modernism</button>
+  <button class="button" data-filter=".PopArt">Pop Art</button>
+</div>
+
+<div class="grid">
+  <% for(let i=0; i < gallery.length; i++) { %>
+    <div class="grid-item <%=gallery[i].classes%>">
+      <h3 class="title"><%=gallery[i].title%></h3>
+      <img src="<%=gallery[i].img%>" alt="<%=gallery[i].alt%>"></img>
+      <p class="artist"><%=gallery[i].artist%></p>
+      <p class="date"><%=gallery[i].date%></p>
+      <p class="period"><%=gallery[i].period%></p>
+    </div>
+  <% } %>
+</div>
+
+<%- include('footer'); %>
